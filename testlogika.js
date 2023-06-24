@@ -17,7 +17,10 @@ const data2 = [10, 20, 20, 10, 10, 30, 50, 10, 20]  //3
 const data3 = [6, 5, 2, 3, 5, 2, 2, 1, 1, 5, 1, 3, 3, 3, 5] //6
 const data4 = [1, 1, 3, 1, 2, 1, 3, 3, 3, 3] //4
 
-// console.log(sockCounter(data4));
+console.log("data1 =",sockCounter(data1));
+console.log("data2 =",sockCounter(data2));
+console.log("data3 =",sockCounter(data3));
+console.log("data4 =",sockCounter(data4));
 
 
 function countWords(sentence) {
@@ -59,7 +62,10 @@ const sentence2 = "Saat meng*ecat tembok, Agung dib_antu oleh Raihan" // 5
 const sentence3 = "Berapa u(mur minimal[ untuk !mengurus ktp?" //3
 const sentence4 = "Masing-masing anak mendap(atkan uang jajan ya=ng be&rbeda." //4
 
-console.log(countWords(sentence4));
+console.log("sentence1 = ",countWords(sentence1));
+console.log("sentence2 = ",countWords(sentence2));
+console.log("sentence3 = ",countWords(sentence3));
+console.log("sentence4 = ",countWords(sentence4));
 
 
 
